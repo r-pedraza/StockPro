@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RPLShoppingCart.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property(strong,nonatomic)RPLShoppingCart *shop;
+
+
 
 
 @end

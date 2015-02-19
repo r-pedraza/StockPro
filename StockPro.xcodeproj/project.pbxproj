@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57625EF51A9495B300D88DEE /* RPLSectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57625EF31A9495B300D88DEE /* RPLSectionTableViewCell.m */; };
+		57625EF61A9495B300D88DEE /* RPLSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57625EF41A9495B300D88DEE /* RPLSectionTableViewCell.xib */; };
+		579A01A81A95EF5100675D8B /* RPLShoppingCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A01A61A95EF5100675D8B /* RPLShoppingCartTableViewCell.m */; };
+		579A01A91A95EF5100675D8B /* RPLShoppingCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579A01A71A95EF5100675D8B /* RPLShoppingCartTableViewCell.xib */; };
 		57CF9D781A920883002BA5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9D771A920883002BA5D6 /* main.m */; };
 		57CF9D7B1A920883002BA5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9D7A1A920883002BA5D6 /* AppDelegate.m */; };
 		57CF9D7D1A920883002BA5D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CF9D7C1A920883002BA5D6 /* Images.xcassets */; };
 		57CF9D801A920883002BA5D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF9D7E1A920883002BA5D6 /* LaunchScreen.xib */; };
 		57CF9D8C1A920883002BA5D6 /* StockProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9D8B1A920883002BA5D6 /* StockProTests.m */; };
+		57CF9D981A9208FA002BA5D6 /* RPLSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9D961A9208FA002BA5D6 /* RPLSectionTableViewController.m */; };
+		57CF9D991A9208FA002BA5D6 /* RPLSectionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF9D971A9208FA002BA5D6 /* RPLSectionTableViewController.xib */; };
+		57CF9D9E1A920948002BA5D6 /* RPLElementosSeccionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9D9C1A920948002BA5D6 /* RPLElementosSeccionTableViewController.m */; };
+		57CF9D9F1A920948002BA5D6 /* RPLElementosSeccionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF9D9D1A920948002BA5D6 /* RPLElementosSeccionTableViewController.xib */; };
+		57CF9DA41A9213BC002BA5D6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9DA21A9213BC002BA5D6 /* Model.xcdatamodeld */; };
+		57CF9DAC1A921A01002BA5D6 /* RPLPayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF9DAA1A921A01002BA5D6 /* RPLPayTableViewController.m */; };
+		57CF9DAD1A921A01002BA5D6 /* RPLPayTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF9DAB1A921A01002BA5D6 /* RPLPayTableViewController.xib */; };
+		57DBC26C1A926397000B7014 /* _RPLElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC2611A926397000B7014 /* _RPLElements.m */; };
+		57DBC26D1A926397000B7014 /* _RPLSections.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC2631A926397000B7014 /* _RPLSections.m */; };
+		57DBC26E1A926397000B7014 /* _RPLShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC2651A926397000B7014 /* _RPLShoppingCart.m */; };
+		57DBC26F1A926397000B7014 /* RPLElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC2671A926397000B7014 /* RPLElements.m */; };
+		57DBC2701A926397000B7014 /* RPLSections.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC2691A926397000B7014 /* RPLSections.m */; };
+		57DBC2711A926397000B7014 /* RPLShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DBC26B1A926397000B7014 /* RPLShoppingCart.m */; };
+		57EAB7871A9343D200EE74D3 /* RPLCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAB7861A9343D200EE74D3 /* RPLCoreDataStack.m */; };
+		57EAB78E1A93688B00EE74D3 /* RPLCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAB78D1A93688B00EE74D3 /* RPLCoreDataTableViewController.m */; };
+		57EAB7921A9378C500EE74D3 /* RPLElementTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EAB7901A9378C500EE74D3 /* RPLElementTableViewCell.m */; };
+		57EAB7931A9378C500EE74D3 /* RPLElementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EAB7911A9378C500EE74D3 /* RPLElementTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57625EF21A9495B300D88DEE /* RPLSectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLSectionTableViewCell.h; sourceTree = "<group>"; };
+		57625EF31A9495B300D88DEE /* RPLSectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLSectionTableViewCell.m; sourceTree = "<group>"; };
+		57625EF41A9495B300D88DEE /* RPLSectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLSectionTableViewCell.xib; sourceTree = "<group>"; };
+		579A01A51A95EF5100675D8B /* RPLShoppingCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLShoppingCartTableViewCell.h; sourceTree = "<group>"; };
+		579A01A61A95EF5100675D8B /* RPLShoppingCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLShoppingCartTableViewCell.m; sourceTree = "<group>"; };
+		579A01A71A95EF5100675D8B /* RPLShoppingCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLShoppingCartTableViewCell.xib; sourceTree = "<group>"; };
 		57CF9D721A920883002BA5D6 /* StockPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CF9D761A920883002BA5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CF9D771A920883002BA5D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +62,35 @@
 		57CF9D851A920883002BA5D6 /* StockProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CF9D8A1A920883002BA5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CF9D8B1A920883002BA5D6 /* StockProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockProTests.m; sourceTree = "<group>"; };
+		57CF9D951A9208FA002BA5D6 /* RPLSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLSectionTableViewController.h; sourceTree = "<group>"; };
+		57CF9D961A9208FA002BA5D6 /* RPLSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLSectionTableViewController.m; sourceTree = "<group>"; };
+		57CF9D971A9208FA002BA5D6 /* RPLSectionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLSectionTableViewController.xib; sourceTree = "<group>"; };
+		57CF9D9B1A920948002BA5D6 /* RPLElementosSeccionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLElementosSeccionTableViewController.h; sourceTree = "<group>"; };
+		57CF9D9C1A920948002BA5D6 /* RPLElementosSeccionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLElementosSeccionTableViewController.m; sourceTree = "<group>"; };
+		57CF9D9D1A920948002BA5D6 /* RPLElementosSeccionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLElementosSeccionTableViewController.xib; sourceTree = "<group>"; };
+		57CF9DA31A9213BC002BA5D6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		57CF9DA91A921A01002BA5D6 /* RPLPayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLPayTableViewController.h; sourceTree = "<group>"; };
+		57CF9DAA1A921A01002BA5D6 /* RPLPayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLPayTableViewController.m; sourceTree = "<group>"; };
+		57CF9DAB1A921A01002BA5D6 /* RPLPayTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLPayTableViewController.xib; sourceTree = "<group>"; };
+		57DBC2601A926397000B7014 /* _RPLElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _RPLElements.h; path = StockPro/_RPLElements.h; sourceTree = "<group>"; };
+		57DBC2611A926397000B7014 /* _RPLElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _RPLElements.m; path = StockPro/_RPLElements.m; sourceTree = "<group>"; };
+		57DBC2621A926397000B7014 /* _RPLSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _RPLSections.h; path = StockPro/_RPLSections.h; sourceTree = "<group>"; };
+		57DBC2631A926397000B7014 /* _RPLSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _RPLSections.m; path = StockPro/_RPLSections.m; sourceTree = "<group>"; };
+		57DBC2641A926397000B7014 /* _RPLShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _RPLShoppingCart.h; path = StockPro/_RPLShoppingCart.h; sourceTree = "<group>"; };
+		57DBC2651A926397000B7014 /* _RPLShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _RPLShoppingCart.m; path = StockPro/_RPLShoppingCart.m; sourceTree = "<group>"; };
+		57DBC2661A926397000B7014 /* RPLElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLElements.h; path = StockPro/RPLElements.h; sourceTree = "<group>"; };
+		57DBC2671A926397000B7014 /* RPLElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPLElements.m; path = StockPro/RPLElements.m; sourceTree = "<group>"; };
+		57DBC2681A926397000B7014 /* RPLSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLSections.h; path = StockPro/RPLSections.h; sourceTree = "<group>"; };
+		57DBC2691A926397000B7014 /* RPLSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPLSections.m; path = StockPro/RPLSections.m; sourceTree = "<group>"; };
+		57DBC26A1A926397000B7014 /* RPLShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPLShoppingCart.h; path = StockPro/RPLShoppingCart.h; sourceTree = "<group>"; };
+		57DBC26B1A926397000B7014 /* RPLShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPLShoppingCart.m; path = StockPro/RPLShoppingCart.m; sourceTree = "<group>"; };
+		57EAB7851A9343D200EE74D3 /* RPLCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLCoreDataStack.h; sourceTree = "<group>"; };
+		57EAB7861A9343D200EE74D3 /* RPLCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLCoreDataStack.m; sourceTree = "<group>"; };
+		57EAB78C1A93688B00EE74D3 /* RPLCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLCoreDataTableViewController.h; sourceTree = "<group>"; };
+		57EAB78D1A93688B00EE74D3 /* RPLCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLCoreDataTableViewController.m; sourceTree = "<group>"; };
+		57EAB78F1A9378C500EE74D3 /* RPLElementTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPLElementTableViewCell.h; sourceTree = "<group>"; };
+		57EAB7901A9378C500EE74D3 /* RPLElementTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPLElementTableViewCell.m; sourceTree = "<group>"; };
+		57EAB7911A9378C500EE74D3 /* RPLElementTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPLElementTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57625EF11A94912900D88DEE /* ViewSeccionsPersonalCell */ = {
+			isa = PBXGroup;
+			children = (
+				57625EF21A9495B300D88DEE /* RPLSectionTableViewCell.h */,
+				57625EF31A9495B300D88DEE /* RPLSectionTableViewCell.m */,
+				57625EF41A9495B300D88DEE /* RPLSectionTableViewCell.xib */,
+			);
+			name = ViewSeccionsPersonalCell;
+			sourceTree = "<group>";
+		};
+		579A01AA1A9606D700675D8B /* ViewShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				579A01A51A95EF5100675D8B /* RPLShoppingCartTableViewCell.h */,
+				579A01A61A95EF5100675D8B /* RPLShoppingCartTableViewCell.m */,
+				579A01A71A95EF5100675D8B /* RPLShoppingCartTableViewCell.xib */,
+			);
+			name = ViewShoppingCart;
+			sourceTree = "<group>";
+		};
 		57CF9D691A920883002BA5D6 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +152,12 @@
 		57CF9D741A920883002BA5D6 /* StockPro */ = {
 			isa = PBXGroup;
 			children = (
+				57EAB7951A937B0300EE74D3 /* Views */,
+				57DBC2721A9263A0000B7014 /* Models */,
+				57CF9D9A1A9208FF002BA5D6 /* Controllers */,
 				57CF9D791A920883002BA5D6 /* AppDelegate.h */,
 				57CF9D7A1A920883002BA5D6 /* AppDelegate.m */,
+				57CF9DAF1A922E1C002BA5D6 /* CoreData */,
 				57CF9D7C1A920883002BA5D6 /* Images.xcassets */,
 				57CF9D7E1A920883002BA5D6 /* LaunchScreen.xib */,
 				57CF9D751A920883002BA5D6 /* Supporting Files */,
@@ -109,6 +189,114 @@
 				57CF9D8A1A920883002BA5D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57CF9D9A1A9208FF002BA5D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57EAB78B1A935E4400EE74D3 /* CoreData */,
+				57CF9DAE1A921A07002BA5D6 /* ShoppingCart */,
+				57CF9DA01A921050002BA5D6 /* ElementosSecciones */,
+				57CF9DA11A921067002BA5D6 /* Secciones */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		57CF9DA01A921050002BA5D6 /* ElementosSecciones */ = {
+			isa = PBXGroup;
+			children = (
+				57CF9D9B1A920948002BA5D6 /* RPLElementosSeccionTableViewController.h */,
+				57CF9D9C1A920948002BA5D6 /* RPLElementosSeccionTableViewController.m */,
+				57CF9D9D1A920948002BA5D6 /* RPLElementosSeccionTableViewController.xib */,
+			);
+			name = ElementosSecciones;
+			sourceTree = "<group>";
+		};
+		57CF9DA11A921067002BA5D6 /* Secciones */ = {
+			isa = PBXGroup;
+			children = (
+				57CF9D951A9208FA002BA5D6 /* RPLSectionTableViewController.h */,
+				57CF9D961A9208FA002BA5D6 /* RPLSectionTableViewController.m */,
+				57CF9D971A9208FA002BA5D6 /* RPLSectionTableViewController.xib */,
+			);
+			name = Secciones;
+			sourceTree = "<group>";
+		};
+		57CF9DAE1A921A07002BA5D6 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				57CF9DA91A921A01002BA5D6 /* RPLPayTableViewController.h */,
+				57CF9DAA1A921A01002BA5D6 /* RPLPayTableViewController.m */,
+				57CF9DAB1A921A01002BA5D6 /* RPLPayTableViewController.xib */,
+			);
+			name = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		57CF9DAF1A922E1C002BA5D6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				57EAB7851A9343D200EE74D3 /* RPLCoreDataStack.h */,
+				57EAB7861A9343D200EE74D3 /* RPLCoreDataStack.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		57DBC2721A9263A0000B7014 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57DBC2731A9263B8000B7014 /* Machine */,
+				57DBC2661A926397000B7014 /* RPLElements.h */,
+				57DBC2671A926397000B7014 /* RPLElements.m */,
+				57DBC2681A926397000B7014 /* RPLSections.h */,
+				57DBC2691A926397000B7014 /* RPLSections.m */,
+				57DBC26A1A926397000B7014 /* RPLShoppingCart.h */,
+				57DBC26B1A926397000B7014 /* RPLShoppingCart.m */,
+				57CF9DA21A9213BC002BA5D6 /* Model.xcdatamodeld */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		57DBC2731A9263B8000B7014 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				57DBC2601A926397000B7014 /* _RPLElements.h */,
+				57DBC2611A926397000B7014 /* _RPLElements.m */,
+				57DBC2621A926397000B7014 /* _RPLSections.h */,
+				57DBC2631A926397000B7014 /* _RPLSections.m */,
+				57DBC2641A926397000B7014 /* _RPLShoppingCart.h */,
+				57DBC2651A926397000B7014 /* _RPLShoppingCart.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		57EAB78B1A935E4400EE74D3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				57EAB78C1A93688B00EE74D3 /* RPLCoreDataTableViewController.h */,
+				57EAB78D1A93688B00EE74D3 /* RPLCoreDataTableViewController.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		57EAB7941A9378CD00EE74D3 /* ViewElementsPersonalCell */ = {
+			isa = PBXGroup;
+			children = (
+				57EAB7911A9378C500EE74D3 /* RPLElementTableViewCell.xib */,
+				57EAB78F1A9378C500EE74D3 /* RPLElementTableViewCell.h */,
+				57EAB7901A9378C500EE74D3 /* RPLElementTableViewCell.m */,
+				579A01AA1A9606D700675D8B /* ViewShoppingCart */,
+			);
+			name = ViewElementsPersonalCell;
+			sourceTree = "<group>";
+		};
+		57EAB7951A937B0300EE74D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57EAB7941A9378CD00EE74D3 /* ViewElementsPersonalCell */,
+				57625EF11A94912900D88DEE /* ViewSeccionsPersonalCell */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +379,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579A01A91A95EF5100675D8B /* RPLShoppingCartTableViewCell.xib in Resources */,
+				57CF9D9F1A920948002BA5D6 /* RPLElementosSeccionTableViewController.xib in Resources */,
 				57CF9D801A920883002BA5D6 /* LaunchScreen.xib in Resources */,
+				57CF9DAD1A921A01002BA5D6 /* RPLPayTableViewController.xib in Resources */,
+				57625EF61A9495B300D88DEE /* RPLSectionTableViewCell.xib in Resources */,
+				57CF9D991A9208FA002BA5D6 /* RPLSectionTableViewController.xib in Resources */,
 				57CF9D7D1A920883002BA5D6 /* Images.xcassets in Resources */,
+				57EAB7931A9378C500EE74D3 /* RPLElementTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +404,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DBC2711A926397000B7014 /* RPLShoppingCart.m in Sources */,
+				579A01A81A95EF5100675D8B /* RPLShoppingCartTableViewCell.m in Sources */,
+				57CF9D9E1A920948002BA5D6 /* RPLElementosSeccionTableViewController.m in Sources */,
+				57EAB78E1A93688B00EE74D3 /* RPLCoreDataTableViewController.m in Sources */,
+				57CF9DAC1A921A01002BA5D6 /* RPLPayTableViewController.m in Sources */,
+				57DBC26E1A926397000B7014 /* _RPLShoppingCart.m in Sources */,
 				57CF9D7B1A920883002BA5D6 /* AppDelegate.m in Sources */,
+				57DBC26C1A926397000B7014 /* _RPLElements.m in Sources */,
+				57DBC26F1A926397000B7014 /* RPLElements.m in Sources */,
+				57DBC2701A926397000B7014 /* RPLSections.m in Sources */,
+				57CF9D981A9208FA002BA5D6 /* RPLSectionTableViewController.m in Sources */,
+				57625EF51A9495B300D88DEE /* RPLSectionTableViewCell.m in Sources */,
 				57CF9D781A920883002BA5D6 /* main.m in Sources */,
+				57EAB7871A9343D200EE74D3 /* RPLCoreDataStack.m in Sources */,
+				57EAB7921A9378C500EE74D3 /* RPLElementTableViewCell.m in Sources */,
+				57DBC26D1A926397000B7014 /* _RPLSections.m in Sources */,
+				57CF9DA41A9213BC002BA5D6 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +605,7 @@
 				57CF9D911A920883002BA5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57CF9D921A920883002BA5D6 /* Build configuration list for PBXNativeTarget "StockProTests" */ = {
 			isa = XCConfigurationList;
@@ -404,8 +614,23 @@
 				57CF9D941A920883002BA5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57CF9DA21A9213BC002BA5D6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57CF9DA31A9213BC002BA5D6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 57CF9DA31A9213BC002BA5D6 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = StockPro/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 57CF9D6A1A920883002BA5D6 /* Project object */;
 }
