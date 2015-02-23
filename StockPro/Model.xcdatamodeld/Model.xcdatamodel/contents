@@ -13,6 +13,7 @@
         <relationship name="elements" toMany="YES" deletionRule="Cascade" destinationEntity="Elements" inverseName="seccion" inverseEntity="Elements" syncable="YES"/>
     </entity>
     <entity name="ShoppingCart" representedClassName="RPLShoppingCart" syncable="YES">
+        <attribute name="nameElement" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="numElement" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="totalPrice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <relationship name="elements" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Elements" inverseName="shoppingCart" inverseEntity="Elements" syncable="YES"/>
@@ -20,6 +21,6 @@
     <elements>
         <element name="Elements" positionX="-288" positionY="9" width="128" height="118"/>
         <element name="Sections" positionX="-99" positionY="-81" width="128" height="88"/>
-        <element name="ShoppingCart" positionX="-92" positionY="146" width="128" height="88"/>
+        <element name="ShoppingCart" positionX="-92" positionY="146" width="128" height="105"/>
     </elements>
 </model>

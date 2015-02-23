@@ -119,12 +119,13 @@
     
     
     
-    RPLShoppingCart *shoppingCart=[RPLShoppingCart withNumElements:0
-                                                             price:0
-                                                           context:self.stack.context];
+    RPLShoppingCart *shop=[RPLShoppingCart withName:@"Shopping Cart"
+                                        numElements:0
+                                              price:0
+                                            context:self.stack.context];
     
     
-    NSLog(@"Elementos %@, Secciones %@, Cart %@",element,sections,shoppingCart);
+    NSLog(@"Elementos %@, Secciones %@, Cart %@",element,sections,shop);
 
     
     

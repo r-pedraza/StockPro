@@ -9,6 +9,7 @@
 #import "RPLPayTableViewController.h"
 #import "RPLShoppingCartTableViewCell.h"
 #import "RPLElements.h"
+#import "RPLShoppingCartTableViewCell.h"
 
 @interface RPLPayTableViewController ()
 
@@ -19,11 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-#warning completar selector para que haga la funcion de confirmar
-    UIBarButtonItem *button=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:nil];
+    //Averiguar de que elementos nos hablan
+   
+    
+    UINavigationController *nav=[[UINavigationController alloc]init];
+    nav.title=@"ShoppingCart";
+
+  
     
     
-    self.title=@"ShoppingCart";
     
     // Registramos el nib de la celda
     UINib *nib = [UINib nibWithNibName:@"RPLShoppingCartTableViewCell" bundle:[NSBundle mainBundle]];
@@ -32,8 +37,6 @@
     self.tableView.rowHeight=[RPLShoppingCartTableViewCell height];
     
     
-    
-
 }
 
 #pragma mark - DeleteElement
@@ -61,6 +64,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    RPLElements *element=[self.fetchedResultsController objectAtIndexPath:indexPath];
+    
+    //creamos la celda
+    RPLShoppingCartTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:[RPLShoppingCartTableViewCell cellId] forIndexPath:indexPath];
+    
+    cell.currentElement=element;
+    cell.nameElementShoppingCart.text=element.nameElement;
+    cell.numberElementsShoppingCart.text=[NSString stringWithFormat:@"%@" ,element.numStock ];
+    cell.priceElementShoppingCart.text=[NSString stringWithFormat:@"%@", element.priceElement ];
+  
+    
+    return cell;
+}
+
 
 
 /*

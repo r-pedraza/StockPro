@@ -3,9 +3,10 @@
 @interface RPLShoppingCart : _RPLShoppingCart {}
 
 
-+(instancetype)withNumElements:(NSNumber*)numElements
-                         price:(NSNumber*)price
-                       context:(NSManagedObjectContext*)context;
++(instancetype)withName:(NSString*)nameElelent
+            numElements:(NSNumber*)numElements
+                  price:(NSNumber*)price
+                context:(NSManagedObjectContext*)context;
 
 
 @end

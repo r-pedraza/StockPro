@@ -17,13 +17,21 @@
 #pragma mark - Class methods
 
 - (IBAction)elementButtonAdd:(id)sender {
-    //referencia al delegado
-    AppDelegate *delegate=[[UIApplication sharedApplication]delegate];
     
-    
-    //Descubrir quien es el elemento
-    self.currentElement.shoppingCart=delegate.shop;
-    
+    //¿Como cojo los atributos del elemento pulsado?
+    // Crear una libreta
+//    [RPLElements withName:@"Nuevo elemento"
+//                 numStock:0
+//             priceElement:0
+//                  seccion:self.relacionSeccion
+//                  context:self.fetchedResultsController.managedObjectContext];
+//    //referencia al delegado
+//    AppDelegate *delegate=[[UIApplication sharedApplication]delegate];
+//    
+//    
+//    //Descubrir quien es el elemento
+//    self.currentElement.shoppingCart=delegate.shop;
+//    
 }
 
 

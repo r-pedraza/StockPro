@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class RPLElements;
 
 @interface RPLShoppingCartTableViewCell : UITableViewCell
+
+@property(strong,nonatomic)RPLElements *currentElement;
+
 
 @property (weak, nonatomic) IBOutlet UILabel *nameElementShoppingCart;
 

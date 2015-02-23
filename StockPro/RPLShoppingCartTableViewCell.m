@@ -10,6 +10,9 @@
 
 @implementation RPLShoppingCartTableViewCell
 
+
+
+
 + (CGFloat)height {
     return 94.0;
 }

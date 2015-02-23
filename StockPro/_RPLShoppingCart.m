@@ -4,6 +4,7 @@
 #import "_RPLShoppingCart.h"
 
 const struct RPLShoppingCartAttributes RPLShoppingCartAttributes = {
+	.nameElement = @"nameElement",
 	.numElement = @"numElement",
 	.totalPrice = @"totalPrice",
 };
@@ -51,6 +52,8 @@ const struct RPLShoppingCartRelationships RPLShoppingCartRelationships = {
 
 	return keyPaths;
 }
+
+@dynamic nameElement;
 
 @dynamic numElement;
 

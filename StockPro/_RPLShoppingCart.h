@@ -4,6 +4,7 @@
 @import CoreData;
 
 extern const struct RPLShoppingCartAttributes {
+	__unsafe_unretained NSString *nameElement;
 	__unsafe_unretained NSString *numElement;
 	__unsafe_unretained NSString *totalPrice;
 } RPLShoppingCartAttributes;
@@ -22,6 +23,10 @@ extern const struct RPLShoppingCartRelationships {
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
 @property (nonatomic, readonly, strong) RPLShoppingCartID* objectID;
+
+@property (nonatomic, strong) NSString* nameElement;
+
+//- (BOOL)validateNameElement:(id*)value_ error:(NSError**)error_;
 
 @property (nonatomic, strong) NSNumber* numElement;
 
@@ -54,6 +59,9 @@ extern const struct RPLShoppingCartRelationships {
 @end
 
 @interface _RPLShoppingCart (CoreDataGeneratedPrimitiveAccessors)
+
+- (NSString*)primitiveNameElement;
+- (void)setPrimitiveNameElement:(NSString*)value;
 
 - (NSNumber*)primitiveNumElement;
 - (void)setPrimitiveNumElement:(NSNumber*)value;

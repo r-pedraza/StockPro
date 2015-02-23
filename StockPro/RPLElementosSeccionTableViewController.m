@@ -12,6 +12,8 @@
 #import "RPLElementTableViewCell.h"
 #import "RPLSections.h"
 #import "AppDelegate.h"
+#import "RPLShoppingCartTableViewCell.h"
+#import "RPLShoppingCart.h"
 
 @interface RPLElementosSeccionTableViewController ()
 
@@ -30,10 +32,14 @@
     //Boton
     UIBarButtonItem *buttonSection=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                 target:self
-                                                                                action:@selector(addElement:)];
-    UIBarButtonItem *buttonShop=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemSave
-                                                                             target:self
-                                                                             action:nil];
+                                                                               action:@selector(addElement:)];
+    
+    UIBarButtonItem *buttonShop=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                target:self
+                                                                                action:@selector(addToCart:cell:)];
+//    UIBarButtonItem *buttonShop=[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemSave
+//                                                                             target:self
+//                                                                             action:nil];
     
   
 
@@ -49,6 +55,21 @@
     //Altura de la tabla
     self.tableView.rowHeight=[RPLElementTableViewCell height];
    
+
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+//    RPLElements *elements=[self.fetchedResultsController objectAtIndexPath:indexPath];
+//    RPLShoppingCart *shop=[RPLShoppingCart withName:elements.nameElement
+//                                        numElements:elements.numStock
+//                                              price:elements.priceElement
+//                                            context:elements.managedObjectContext];
+    
+    
+    
+    
+    
 
 }
 
@@ -87,7 +108,7 @@
 #pragma mark - Actions
 
 - (void)addElement:(id)sender {
-    
+ 
     // Crear una libreta
     [RPLElements withName:@"Nuevo elemento"
                  numStock:0
@@ -122,6 +143,18 @@
 }
 
     
+-(void)addToCart{
+    
+    
+    // Crear una libreta
+    [RPLElements withName:@"Nuevo elemento"
+                 numStock:0
+             priceElement:0
+                  seccion:self.relacionSeccion
+                  context:self.fetchedResultsController.managedObjectContext];
+    
+    
+}
 
     
 
